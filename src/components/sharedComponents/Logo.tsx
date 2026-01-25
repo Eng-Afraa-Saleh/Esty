@@ -1,4 +1,4 @@
-import Symbol from "/assets/icons/Symbol.svg";
+import Symbol from "/assets/Symbol.svg";
 const Logo = ({type="nav"}:{type?:string}) => {
   return (
     <div className="flex gap-1.5 xl:gap-2.5 md:gap-[7.25px] items-center " data-aos="fade-right">
