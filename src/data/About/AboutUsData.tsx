@@ -8,6 +8,11 @@ import type {
   MeetEstateinTeamCardSectionType,
   OurValuedClientsSectionType,
 } from "../../types/About/AboutType";
+
+import Image1 from "/assets/images/About/Image1.webp";
+import Image2 from "/assets/images/About/Image2.webp";
+import Image3 from "/assets/images/About/Image3.webp";
+import Image4 from "/assets/images/About/Image4.webp";
 // Our Values section Data
 
 export const OurValueSectionData: OurValueSectionType = {
@@ -131,25 +136,25 @@ export const MeetEstateinTeamCardSectionData: MeetEstateinTeamCardSectionType =
     properties: [
       {
         id: "property-1",
-        image: "/assets/images/About/Image(1).webp",
+        image: Image1,
         name: "Max Mitchell",
         job: "Founder",
       },
       {
         id: "property-2",
-        image: "/assets/images/About/Image(4).webp",
+        image: Image4,
         name: "Sarah Johnson",
         job: "Chief Real Estate Officer",
       },
       {
         id: "property-3",
-        image: "/assets/images/About/Image(2).webp",
+        image:Image2,
         name: "David Brown",
         job: "Head of Property Management",
       },
       {
         id: "property-4",
-        image: "/assets/images/About/Image(3).webp",
+        image:Image3,
         name: "Michael Turner",
         job: "Legal Counsel",
       },
