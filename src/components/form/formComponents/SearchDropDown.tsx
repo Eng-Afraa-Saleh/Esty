@@ -14,7 +14,7 @@ const SearchDropDownComponent: React.FC<Props> = ({ data }) => {
       {formFields.map(
         (field) =>
           field.type === "select" && (
-            <SelectField key={field.id} field={field} />
+            <SelectField key={field.id} field={field as any} />
           )
       )}
     </div>
