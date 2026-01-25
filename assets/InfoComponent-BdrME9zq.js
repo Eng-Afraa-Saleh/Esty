@@ -1,0 +1,1 @@
+import{j as e}from"./index-U4U2T86N.js";function s({desc:r,icon:t,padding:n}){return e.jsxs("div",{className:`${n} flex items-center gap-1 xl:gap-1.5 bg-Grey-10 w-fit rounded-[28px] border border-Grey-15 urbanist text-sm xl:text-lg font-medium`,children:[t,e.jsx("p",{children:r})]})}export{s as I};
