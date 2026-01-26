@@ -6,24 +6,35 @@ import Location from "../../svg/Location";
 import type { ContactHeroDataType, ContactLetsConnectFormDataType } from "../../types/Contact/ContactType";
 import type { PropertyDetailsType } from "../../types/PropertyDetails/PropertyDetailsTypes";
 
+import SeasideSerenityVilla1 from "/assets/images/PropertyDetails/SeasideSerenityVilla1.webp";
+import SeasideSerenityVilla2 from "/assets/images/PropertyDetails/SeasideSerenityVilla2.webp";
+import SeasideSerenityVilla3 from "/assets/images/PropertyDetails/SeasideSerenityVilla3.webp";
+import SeasideSerenityVilla4 from "/assets/images/PropertyDetails/SeasideSerenityVilla4.webp";
+import SeasideSerenityVilla5 from "/assets/images/PropertyDetails/SeasideSerenityVilla5.webp";
+import SeasideSerenityVilla6 from "/assets/images/PropertyDetails/SeasideSerenityVilla6.webp";
+import SeasideSerenityVilla7 from "/assets/images/PropertyDetails/SeasideSerenityVilla7.webp";
+import SeasideSerenityVilla8 from "/assets/images/PropertyDetails/SeasideSerenityVilla8.webp";
+import SeasideSerenityVilla9 from "/assets/images/PropertyDetails/SeasideSerenityVilla9.webp";
+
+
 export const PropertyDetailsData : PropertyDetailsType={
     title: "Seaside Serenity Villa",
     location : "Malibu, California" ,
     price : "$1,250,000",
     PropertyImages : [ 
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla1.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla2.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla3.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla4.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla5.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla6.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla7.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla8.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla9.webp",},
+        {image: SeasideSerenityVilla1,},
+        {image: SeasideSerenityVilla2,},
+        {image: SeasideSerenityVilla3,},
+        {image: SeasideSerenityVilla4,},
+        {image: SeasideSerenityVilla5,},
+        {image: SeasideSerenityVilla6,},
+        {image: SeasideSerenityVilla7,},
+        {image: SeasideSerenityVilla8,},
+        {image: SeasideSerenityVilla9,},
         // 
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla1.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla2.webp",},
-        {image: "/assets/images/PropertyDetails/SeasideSerenityVilla3.webp",},
+        {image: SeasideSerenityVilla1,},
+        {image: SeasideSerenityVilla2,},
+        {image: SeasideSerenityVilla3,},
     ],
     description :{
         description : "Discover your own piece of paradise with the Seaside Serenity Villa. T With an open floor plan, breathtaking ocean views from every room, and direct access to a pristine sandy beach, this property is the epitome of coastal living.",
