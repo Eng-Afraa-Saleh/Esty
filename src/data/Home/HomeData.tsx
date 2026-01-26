@@ -23,8 +23,6 @@ import star from "/assets/icons/star.svg";
 import person1 from "/assets/images/Home/person1.webp";
 import person2 from "/assets/images/Home/person2.webp";
 import person3 from "/assets/images/Home/person3.webp";
-
-import backgroundSection from "/assets/images/Home/backgroundSection.webp"
 // Hero Data
 
 import type {
@@ -305,7 +303,7 @@ export const faqSectionData: FaqSectionType = {
 };
 
 export const ctaSectionData: CtaSectionType = {
-  background:backgroundSection,
+  background: "/assets/images/Home/backgroundSection.webp",
   headline: "Start Your Real Estate Journey Today",
   description:
     "Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice. Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.",
