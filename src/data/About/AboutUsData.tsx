@@ -13,6 +13,9 @@ import Image1 from "/assets/images/About/Image1.webp";
 import Image2 from "/assets/images/About/Image2.webp";
 import Image3 from "/assets/images/About/Image3.webp";
 import Image4 from "/assets/images/About/Image4.webp";
+
+import category from "/assets/icons/category.svg";
+import domain from "/assets/icons/domain.svg";
 // Our Values section Data
 
 export const OurValueSectionData: OurValueSectionType = {
@@ -177,12 +180,12 @@ export const OurValuedClientsSectionData: OurValuedClientsSectionType = {
       title: "ABC Corporation",
       subCards: [
         {
-          icon: "/assets/icons/domain.svg",
+          icon:domain,
           subTitle: "Domain",
           title: "Commercial Real Estate",
         },
         {
-          icon: "/assets/icons/category.svg",
+          icon:category,
           subTitle: "Category",
           title: "Luxury Home Development",
         },
@@ -200,12 +203,12 @@ export const OurValuedClientsSectionData: OurValuedClientsSectionType = {
       title: "GreenTech Enterprises",
       subCards: [
         {
-          icon: "/assets/icons/domain.svg",
+          icon:domain,
           subTitle: "Domain",
           title: "Commercial Real Estate",
         },
         {
-          icon: "/assets/icons/category.svg",
+          icon:category,
           subTitle: "Category",
           title: "Retail Space",
         },

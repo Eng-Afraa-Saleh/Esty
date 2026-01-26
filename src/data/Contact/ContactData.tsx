@@ -11,6 +11,11 @@ import Phone from "../../svg/Phone";
 import Location from "../../svg/Location";
 import TopRightArrow from "../../svg/TopRightArrow";
 
+import emailIcon from "/assets/icons/emailIcon.svg";
+import phoneIcon from "/assets/icons/phoneIcon.svg";
+import locationIcon from "/assets/icons/locationIcon.svg";
+import roseIcon from "/assets/icons/roseIcon.svg";
+
 // ContactHero Data
 
 export const contactHeroData: ContactHeroDataType = {
@@ -22,25 +27,25 @@ export const contactHeroData: ContactHeroDataType = {
 export const contactHeroCard: FeaturesType[] = [
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/emailIcon.svg",
+    icon:emailIcon,
     title: "info@estatein.com",
     link: "/contact"
   },
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/phoneIcon.svg",
+    icon:phoneIcon,
     title: "+1 (123) 456-7890",
     link: "/contact"
   },
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/locationIcon.svg",
+    icon: locationIcon,
     title: "Main Headquarters",
     link: "/contact"
   },
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/roseIcon.svg",
+    icon:roseIcon,
     title: ["Instagram", "LinkedIn", "Facebook"],
     link: "/contact"
   },
