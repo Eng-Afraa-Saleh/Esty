@@ -1,0 +1,1 @@
+import{j as t}from"./index-DKajUlif.js";function s({children:e,className:x}){return t.jsx("section",{className:`px-[4.1025%] md:px-[5.5555%] xl:px-[8.4375%] flex flex-col justify-between gap-10 md:gap-15 xl:gap-20 ${x}`,children:e})}export{s as C};
