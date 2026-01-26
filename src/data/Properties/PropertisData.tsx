@@ -10,7 +10,10 @@ import type {
   ContactLetsConnectFormDataType,
 } from "../../types/Contact/ContactType";
 import type { PropertiesData } from "../../types/Properties/PropertiesTypes";
-
+import imageSlideCard1 from "/assets/images/Properties/imageSlideCard1.webp";
+import imageSlideCard2 from "/assets/images/Properties/imageSlideCard2.webp";
+import imageSlideCard3 from "/assets/images/Properties/imageSlideCard3.webp";
+import searchIcon from "/assets/icons/searchIcon.svg";
 // form data
 
 export const contactFormSectionHeader: ContactHeroDataType = {
@@ -141,7 +144,7 @@ export const propertiesData: PropertiesData = {
     cards: [
       {
         id: 1,
-        image: "/assets/images/Properties/imageSlideCard1.webp",
+        image:imageSlideCard1,
         smallTitle: "Coastal Escapes - Where Waves Beckon",
         mainTitle: "Seaside Serenity Villa",
         description:"Wake up to the soothing melody of waves. This beachfront villa offers spacious, sunlit rooms with panoramic ocean views, a private terrace for morning coffee, and direct access to pristine sandy beaches. Enjoy the gentle sea breeze, relax by the infinity pool, or take evening strolls along the shore, all while indulging in the ultimate blend of luxury, comfort, and tranquility",
@@ -154,7 +157,7 @@ export const propertiesData: PropertiesData = {
       },
       {
         id: 2,
-        image: "/assets/images/Properties/imageSlideCard2.webp",
+        image:imageSlideCard2,
         smallTitle: "Urban Oasis - Life in the Heart of the City",
         mainTitle: "Metropolitan Haven",
         description:
@@ -168,7 +171,7 @@ export const propertiesData: PropertiesData = {
       },
       {
         id: 3,
-        image: "/assets/images/Properties/imageSlideCard3.webp",
+        image:imageSlideCard3,
         smallTitle: "Countryside Charm - Escape to Nature's Embrace",
         mainTitle: "Rustic Retreat Cottage",
         description:"Find tranquility in the countryside. This charming cottage is nestled amidst rolling hills and surrounded by lush greenery, with fragrant gardens and a gentle stream nearby. The peaceful setting offers the perfect escape from the hustle and bustle of city life, where you can unwind on the porch, listen to the birds singing, and enjoy the fresh, crisp air every morning.",
@@ -191,7 +194,7 @@ export const propertiesData: PropertiesData = {
     searchButton: {
       text: "Find Property",
       variant: "primary",
-      icon: "/assets/icons/searchIcon.svg",
+      icon:searchIcon,
       link: "#",
     },
   },
