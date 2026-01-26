@@ -20,6 +20,11 @@ import buildingSliderCard2 from "/assets/images/Home/buildingSliderCard2.webp";
 import modernCitySliderCard3 from "/assets/images/Home/modernCitySliderCard3.webp";
 
 import star from "/assets/icons/star.svg";
+import person1 from "/assets/images/Home/person1.webp";
+import person2 from "/assets/images/Home/person2.webp";
+import person3 from "/assets/images/Home/person3.webp";
+
+import backgroundSection from "/assets/images/Home/backgroundSection.webp"
 // Hero Data
 
 import type {
@@ -230,31 +235,31 @@ export const testimonialsSectionData: TestimonialsSectionType = {
       author: {
         name: "Wade Warren",
         location: "USA, California",
-        avatar: "/assets/images/Home/person1.webp",
+        avatar:person1,
       },
     },
     {
       id: "testimonial-2",
       rating: 5,
-      icon: "/assets/icons/star.svg",
+      icon:star,
       title: "Efficient and Reliable",
       text: "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
       author: {
         name: "Emelie Thomson",
         location: "USA, Florida",
-        avatar: "/assets/images/Home/person2.webp",
+        avatar:person2,
       },
     },
     {
       id: "testimonial-3",
       rating: 5,
-      icon: "/assets/icons/star.svg",
+      icon:star,
       title: "Trusted Advisors",
       text: "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
       author: {
         name: "John Mans",
         location: "USA, Nevada",
-        avatar: "/assets/images/Home/person3.webp",
+        avatar:person3,
       },
     },
   ],
@@ -300,7 +305,7 @@ export const faqSectionData: FaqSectionType = {
 };
 
 export const ctaSectionData: CtaSectionType = {
-  background: "/assets/images/Home/backgroundSection.webp",
+  background:backgroundSection,
   headline: "Start Your Real Estate Journey Today",
   description:
     "Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice. Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.",
