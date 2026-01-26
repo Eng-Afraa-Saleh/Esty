@@ -40,7 +40,7 @@ function App() {
     AOS.init({duration :1000 ,easing:"ease"});
   },[])
   return (
-    <Router>
+    <Router basename="/Esty">
       <ScrollToHash /> 
       <Suspense
         fallback={
