@@ -18,6 +18,8 @@ import estateinLogo from "/assets/icons/estateinLogo.svg";
 import villaSliderCard1 from "/assets/images/Home/villaSliderCard1.webp";
 import buildingSliderCard2 from "/assets/images/Home/buildingSliderCard2.webp";
 import modernCitySliderCard3 from "/assets/images/Home/modernCitySliderCard3.webp";
+
+import star from "/assets/icons/star.svg";
 // Hero Data
 
 import type {
@@ -222,7 +224,7 @@ export const testimonialsSectionData: TestimonialsSectionType = {
     {
       id: "testimonial-1",
       rating: 5,
-      icon: "/assets/icons/star.svg",
+      icon:star,
       title: "Exceptional Service!",
       text: "Our experience with Estatein was outstanding. Their teams dedication and professionalism made finding our dream home a breeze. Highly recommended!",
       author: {
