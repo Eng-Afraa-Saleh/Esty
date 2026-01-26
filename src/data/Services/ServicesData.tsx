@@ -2,6 +2,16 @@ import type {
   ContactHeroDataType,
 } from "../../types/Contact/ContactType";
 import type { ServiceCards } from "../../types/Services/ServicesTypes";
+import chartIcon from "/assets/icons/signalIcon.svg";
+import dbIcon from "/assets/icons/dbIcon.svg";
+import signalIcon from "/assets/icons/signalIcon.svg";
+import speakerIcon from "/assets/icons/speakerIcon.svg";
+import iusterIcon from "/assets/icons/iusterIcon.svg";
+import servicesSunIcon from "/assets/icons/servicesSunIcon.svg";
+import storeIcon from "/assets/icons/storeIcon.svg";
+import ticketIcon from "/assets/icons/ticketIcon.svg";
+import lightIcon from "/assets/icons/lightIcon.svg";
+import fireIcon from "/assets/icons/fireIcon.svg";
 
 // hero section
 
@@ -23,28 +33,28 @@ export const unlockPropertyCards: ServiceCards = {
   cards: [
     {
       id: 1,
-      icon: "/assets/icons/signalIcon.svg",
+      icon:signalIcon,
       title: "Valuation Mastery",
       description:
         "Discover the true worth of your property with our expert valuation services.",
     },
     {
       id: 2,
-      icon: "/assets/icons/chartIcon.svg",
+      icon:chartIcon,
       title: "Strategic Marketing",
       description:
         "Selling a property requires more than just a listing; it demands a strategic marketing approach.",
     },
     {
       id: 3,
-      icon: "/assets/icons/dbIcon.svg",
+      icon:dbIcon,
       title: "Negotiation Wizardry",
       description:
         "Negotiating the best deal is an art, and our negotiation experts are masters of it.",
     },
     {
       id: 4,
-      icon: "/assets/icons/speakerIcon.svg",
+      icon:speakerIcon,
       title: "Closing Success",
       description:
         "A successful sale is not complete until the closing. We guide you through the intricate closing process.",
@@ -71,28 +81,28 @@ export const effortlessProperty: ServiceCards = {
   cards: [
     {
       id: 1,
-      icon: "/assets/icons/storeIcon.svg",
+      icon:storeIcon,
       title: "Tenant Harmony",
       description:
         "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.",
     },
     {
       id: 2,
-      icon: "/assets/icons/ticketIcon.svg",
+      icon: ticketIcon,
       title: "Maintenance Ease",
       description:
         "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.",
     },
     {
       id: 3,
-      icon: "/assets/icons/iusterIcon.svg",
+      icon: iusterIcon,
       title: "Financial Peace of Mind",
       description:
         "Managing property finances can be complex. Our financial experts take care of rent collection",
     },
     {
       id: 4,
-      icon: "/assets/icons/servicesSunIcon.svg",
+      icon:servicesSunIcon,
       title: "Legal Guardian",
       description:
         "Stay compliant with property laws and regulations effortlessly.",
@@ -119,28 +129,28 @@ export const smartInvestments: ServiceCards = {
   cards: [
     {
       id: 1,
-      icon: "/assets/icons/signalIcon.svg",
+      icon:signalIcon,
       title: "Market Insight",
       description:
         "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions",
     },
     {
       id: 2,
-      icon: "/assets/icons/fireIcon.svg",
+      icon: fireIcon,
       title: "ROI Assessment",
       description:
         "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments",
     },
     {
       id: 3,
-      icon: "/assets/icons/lightIcon.svg",
+      icon:lightIcon,
       title: "Customized Strategies",
       description:
         "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs",
     },
     {
       id: 4,
-      icon: "/assets/icons/servicesSunIcon.svg",
+      icon: servicesSunIcon,
       title: "Diversification Mastery",
       description:
         "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations",
