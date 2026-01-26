@@ -7,6 +7,17 @@ import Facebook from "../../svg/FaceBook";
 import LinkedIn from "../../svg/LinkedIn";
 import TwitterIcon from "../../svg/Twitter";
 import YouTube from "../../svg/YouTube";
+
+import market from "/assets/icons/market.svg";
+import camera from "/assets/icons/camera.svg";
+import building from "/assets/icons/building.svg";
+import sun from "/assets/icons/sun.svg";
+
+import estateinLogo from "/assets/icons/estateinLogo.svg";
+
+import villaSliderCard1 from "/assets/images/Home/villaSliderCard1.webp";
+import buildingSliderCard2 from "/assets/images/Home/buildingSliderCard2.webp";
+import modernCitySliderCard3 from "/assets/images/Home/modernCitySliderCard3.webp";
 // Hero Data
 
 import type {
@@ -32,25 +43,25 @@ export const Stats: HeroStat[] = [
 export const featuresSectionData: FeaturesType[] = [
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/market.svg",
+    icon:market,
     title: "Find Your Dream Home",
     link: "/properties"
   },
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/camera.svg",
+    icon:camera,
     title: "Unlock Property Value",
     link: "/services#Unlock_Property_Value"
   },
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/building.svg",
+    icon:building,
     title: "Effortless Property Management",
     link: "/services#Effortless_Property_Management"
   },
   {
     arrow: <TopRightArrow />,
-    icon: "/assets/icons/sun.svg",
+    icon:sun,
     title: "Smart Investments, Informed Decisions",
     link: "/services#Smart_Investments_Informed_Decisions"
   },
@@ -72,7 +83,7 @@ export const topBannerData: TopBannerType = {
 
 export const siteInfo: SiteInfoType = {
   siteTitle: "Estatein",
-  logo: "/assets/icons/estateinLogo.svg",
+  logo: estateinLogo,
 };
 
 // Featured Properties Data
@@ -88,7 +99,7 @@ export const featuredPropertiesSectionData: FeaturedPropertiesSectionType = {
   properties: [
     {
       id: "property-1",
-      image: "/assets/images/Home/villaSliderCard1.webp",
+      image:villaSliderCard1,
       title: "Seaside Serenity Villa",
       description:
         "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood, featuring a spacious open-plan living area, a modern gourmet kitchen, and a beautifully landscaped garden perfect for family gatherings or quiet relaxation. With ample natural light, elegant finishes, and a private garage, this home combines comfort, style, and convenience in one exceptional package",
@@ -106,7 +117,7 @@ export const featuredPropertiesSectionData: FeaturedPropertiesSectionType = {
     },
     {
       id: "property-2",
-      image: "/assets/images/Home/buildingSliderCard2.webp",
+      image:buildingSliderCard2,
       title: "Metropolitan Haven",
       description:
         "A chic and fully-furnished 2-bedroom apartment with panoramic city views, featuring a modern open-plan living area, a sleek kitchen with top-of-the-line appliances, and a balcony perfect for enjoying sunsets. Residents also have access to premium amenities, including a fitness center, rooftop terrace, and 24-hour security, offering the ultimate blend of comfort, convenience, and urban sophistication",
@@ -124,7 +135,7 @@ export const featuredPropertiesSectionData: FeaturedPropertiesSectionType = {
     },
     {
       id: "property-3",
-      image: "/assets/images/Home/modernCitySliderCard3.webp",
+      image:modernCitySliderCard3,
       title: "Rustic Retreat Cottage",
       description:
         "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community, featuring a spacious open-concept living and dining area, a modern kitchen with high-end appliances, and a private backyard perfect for relaxing or entertaining. Residents enjoy access to exclusive amenities such as a swimming pool, fitness center, and beautifully landscaped communal areas, all within a safe and serene neighborhood that combines comfort, style, and convenience",
@@ -142,7 +153,7 @@ export const featuredPropertiesSectionData: FeaturedPropertiesSectionType = {
     },
     {
       id: "property-1",
-      image: "/assets/images/Home/villaSliderCard1.webp",
+      image:villaSliderCard1,
       title: "Seaside Serenity Villa",
       description:
         "A chic and fully-furnished 2-bedroom apartment with panoramic city views, featuring a modern open-plan living area, a sleek kitchen with top-of-the-line appliances, and a balcony perfect for enjoying sunsets. Residents also have access to premium amenities, including a fitness center, rooftop terrace, and 24-hour security, offering the ultimate blend of comfort, convenience, and urban sophistication",
@@ -160,7 +171,7 @@ export const featuredPropertiesSectionData: FeaturedPropertiesSectionType = {
     },
     {
       id: "property-2",
-      image: "/assets/images/Home/buildingSliderCard2.webp",
+      image: buildingSliderCard2,
       title: "Metropolitan Haven",
       description:
         "A chic and fully-furnished 2-bedroom apartment with panoramic city views, featuring a modern open-plan living area, a sleek kitchen with top-of-the-line appliances, and a balcony perfect for enjoying sunsets. Residents also have access to premium amenities, including a fitness center, rooftop terrace, and 24-hour security, offering the ultimate blend of comfort, convenience, and urban sophistication",
@@ -178,7 +189,7 @@ export const featuredPropertiesSectionData: FeaturedPropertiesSectionType = {
     },
     {
       id: "property-3",
-      image: "/assets/images/Home/modernCitySliderCard3.webp",
+      image: modernCitySliderCard3,
       title: "Rustic Retreat Cottage",
       description:
         "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community, featuring a spacious open-concept living and dining area, a modern kitchen with high-end appliances, and a private backyard perfect for relaxing or entertaining. Residents enjoy access to exclusive amenities such as a swimming pool, fitness center, and beautifully landscaped communal areas, all within a safe and serene neighborhood that combines comfort, style, and convenience",
