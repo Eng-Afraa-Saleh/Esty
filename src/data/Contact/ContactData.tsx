@@ -16,6 +16,13 @@ import phoneIcon from "/assets/icons/phoneIcon.svg";
 import locationIcon from "/assets/icons/locationIcon.svg";
 import roseIcon from "/assets/icons/roseIcon.svg";
 
+import ExploreWomanInSuit from "/assets/images/Contact/ExploreWomanInSuit.webp";
+import ExploreShakingHands from "/assets/images/Contact/ExploreShakingHands.webp";
+ import exploreOffice from "/assets/images/Contact/exploreOffice.webp";
+import explorePeople from "/assets/images/Contact/explorePeople.webp";
+import exploreOfficeLaptops from "/assets/images/Contact/exploreOfficeLaptops.webp";
+import ExplorePeopleInSuits from "/assets/images/Contact/ExplorePeopleInSuits.webp";
+
 // ContactHero Data
 
 export const contactHeroData: ContactHeroDataType = {
@@ -206,23 +213,23 @@ export const contactExplorePhotosData: ContactExplorePhotosDataType = {
   photos: [
     {
       id: "exploreOffice",
-      image: "/assets/images/Contact/exploreOffice.webp",
+      image:exploreOffice,
     },
     {
       id: "explorePeople",
-      image: "/assets/images/Contact/explorePeople.webp",
+      image:explorePeople,
     },
     {
       id: "exploreOfficeLaptops",
-      image: "/assets/images/Contact/exploreOfficeLaptops.webp",
+      image: exploreOfficeLaptops,
     },
     {
       id: "explorePeopleInSuits",
-      image: "/assets/images/Contact/ExplorePeopleInSuits.webp",
+      image:ExplorePeopleInSuits,
     },
     {
       id: "exploreWomanInSuit",
-      image: "/assets/images/Contact/ExploreWomanInSuit.webp",
+      image:ExploreWomanInSuit,
     },
   ],
   contactExploreEstateinData: {
@@ -230,5 +237,5 @@ export const contactExplorePhotosData: ContactExplorePhotosDataType = {
     description:
       "Discover the world of Estatein and its impact on the real estate industry. From our team of experts to our commitment to excellence, we're here to guide you on your real estate journey.",
   },
-  titlePhoto: "/assets/images/Contact/ExploreShakingHands.webp",
+  titlePhoto:ExploreShakingHands,
 };
