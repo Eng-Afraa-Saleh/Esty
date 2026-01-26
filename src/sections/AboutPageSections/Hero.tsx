@@ -1,12 +1,12 @@
 import Header from "../../components/sharedComponents/Header";
 import Statistics from "../../components/sharedComponents/statistics/Statistics";
 import WavyBackdrop from "../../svg/WavyBackdrop";
+  import heroImage from "/assets/images/About/Hero-img.webp";
 
 const Hero = () => {
   const headline = "Our Journey";
   const description =
     "Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary. Over the years, we've expanded our reach, forged valuable partnerships, and gained the trust of countless clients.";
-  const heroImage = "/assets/images/About/Hero-img.webp";
 
   return (
     <section className="px-[4.1025%] md:px-[5.5555%] xl:px-[8.4375%] min-h-screen pt-[108px] lg:pt-[77px] xl:pt-[99px] flex justify-between items-center max-lg:flex-col-reverse max-lg:gap-10">

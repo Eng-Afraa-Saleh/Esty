@@ -3,12 +3,12 @@ import Button from "../../components/sharedComponents/Button";
 import HeroArrowIcon from "../../components/sharedComponents/HeroArrowIcon";
 import WavyBackdrop from "../../svg/WavyBackdrop";
 import { HERO_PATH } from "../../svg/Paths";
+  import heroImage from "/assets/images/Home/heroBuilding.webp";
 
 const Hero = () => {
   const description =
     "Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.";
   const headline = "Discover Your Dream Property with Estatein";
-  const heroImage = "/assets/images/Home/heroBuilding.webp";
 
   return (
     <section id={'hero'} className="px-[4.1025%] md:px-[5.5555%] xl:px-[8.4375%] min-h-screen max-lg:gap-14 pt-[108px] lg:pt-[77px] xl:pt-[99px] flex justify-between items-center max-lg:flex-col-reverse lg:pr-0 xl:pr-0">
