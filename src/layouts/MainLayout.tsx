@@ -17,7 +17,7 @@ const MainLayout = () => {
 
 
   return (
-    <div className="cursor-custom-default">
+    <div className="cursor-custom-default overflow-x-hidden">
       <Navbar />
       <main className="">
         <Outlet />
